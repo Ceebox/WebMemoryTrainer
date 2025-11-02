@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memory Trainer</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Syne -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+
+    <script src="./js/tilt-driver.js"></script>
+    <script src="./js/start-controller.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="">Memory Trainer</h1>
+    </header>
+    <section class="content border overlap-container" id="options">
+        <div>
+            <label for="length">Length:</label>
+            <input id="length" type="number" value="6" min="1" max="12">
+        </div>
+        <div>
+            <label for="fixed-size">Fixed Size:</label>
+            <input id="fixed-size" type="checkbox" checked>
+        </div>
+        <div>
+            <label for="visible-time">Visible Seconds:</label>
+            <input id="visible-time" type="number" value="3" min="0.1" max="60">
+        </div>
+    </section>
+    <section class="content border">
+        <input id="start" type="button" value="Start">
+    </section>
+</body>
+
+</html>

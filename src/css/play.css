@@ -1,0 +1,19 @@
+.number {
+    font-family: "Inter", monospace;
+    font-weight: 500;
+    text-align: center;
+    z-index: 2;
+
+    /* Nice try! No copying me! */
+    user-select: none;
+}
+
+.overlap {
+    display: grid;
+    grid-area: 1 / 1;
+    text-align: center;
+}
+
+.displayNone {
+    display: none;
+}

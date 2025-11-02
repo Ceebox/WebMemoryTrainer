@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memory Trainer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/play.css">
+
+    <!-- Syne -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+
+    <script src="./js/tilt-driver.js"></script>
+    <script src="./js/play-controller.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="">Memory Trainer</h1>
+    </header>
+    <section class="content border">
+        <h4 id="game-over" class="displayNone">Game Over</h4>
+        <h4 id="score"></h4>
+    </section>
+    <section class="content border" id="game-area">
+        <h1 id="number" class="number overlap">345456547</h1>
+        <input id="number-input" class="overlap" type="number">
+    </section>
+    <section class="content border">
+        <input id="confirm" type="button" value="Confirm">
+    </section>
+</body>
+
+</html>
